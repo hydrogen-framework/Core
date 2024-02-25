@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hydrogen.Core.SaaS.Domain\Hydrogen.Core.SaaS.Domain.csproj" />
+    <ProjectReference Include="..\Hydrogen.Core.Shared\Hydrogen.Core.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
