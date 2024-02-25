@@ -1,3 +1,3 @@
 ﻿namespace Hydrogen.Core.Shared.Interfaces;
 
-public interface IEvent : ITrigger;
+public interface IDomainEvent : ITrigger;
